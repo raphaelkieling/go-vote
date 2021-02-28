@@ -1,10 +1,10 @@
 name: Go
 
 on:
-  push:
-    tags:
+  release:
+    tags: 
       - "v*.*.*"
-
+      
 jobs:
   test:
     runs-on: ubuntu-latest
