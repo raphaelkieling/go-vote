@@ -1,0 +1,9 @@
+PORT=3000
+
+AUTH_USER=admin
+AUTH_PASS=admin
+
+DB_HOST=localhost:3001
+DB_DATABASE=votes
+DB_PASSWORD=root
+DB_USER=root
